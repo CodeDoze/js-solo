@@ -77,9 +77,9 @@
 //
 // 8
 {
-	const stock = 10;
-	stock = 8;
-	console.log(stock);
+	// 	const stock = 10;
+	// 	stock = 8;
+	// 	console.log(stock);
 }
 
 // 2.6 ⭐⭐ Échanger le plat et le dessert
@@ -106,10 +106,10 @@
 // 2. Recopie et lance le code pour vérifier.
 // 3. Écris en commentaire (//) pourquoi les deux lignes ne donnent pas la même chose.
 {
-	const prix = 5;
-	const Prix = 50;
-	console.log(prix);
-	console.log(Prix);
+	// const prix = 5;
+	// const Prix = 50;
+	// console.log(prix);
+	// console.log(Prix);
 }
 
 // 2.8 ⭐⭐⭐ Les commandes de la soirée
@@ -138,8 +138,8 @@
 //
 // Table 4
 {
-	console.log(table);
-	const table = "Table 4";
+	// console.log(table);
+	// const table = "Table 4";
 }
 
 // 2.10 🏆 La fiche de réservation

@@ -1,19 +1,5 @@
-// JS-01 · Démarrer avec JavaScript · Exercices
-// Écris ton code sous chaque énoncé, puis lance : node js-01-exercices.js
-// Le guide « Faire les exercices dans VS Code » : https://code-en-action.apprendre-le-web-dev.workers.dev/guides/exercices-dans-vs-code
-// Les accolades { } séparent les exercices : écris le code de chaque exercice entre les siennes.
-
-// 1.1 ⭐ Le premier message
-// 1. Affiche dans la console le texte Bienvenue au food truck ! avec console.log.
-//
-// Tu dois obtenir :
-//
-// Bienvenue au food truck !
-{
-  // Ton code ici
-
-
-}
+// Ton code ici
+console.log("Bienvenue au food truck !");
 
 // 1.2 ⭐ La carte en trois lignes
 // Le menu du jour compte trois plats.
@@ -28,9 +14,7 @@
 // Frites
 // Milkshake
 {
-  // Ton code ici
-
-
+	// Ton code ici
 }
 
 // 1.3 ⭐ Plusieurs valeurs d'un coup
@@ -41,9 +25,7 @@
 //
 // Prix du burger : 11
 {
-  // Ton code ici
-
-
+	// Ton code ici
 }
 
 // 1.4 ⭐⭐ Relier le fichier JavaScript
@@ -57,11 +39,9 @@
 // Résultat attendu : une seule ligne de HTML, avec la balise ouvrante et la balise fermante, placée
 // dans le <head>.
 {
-  // Ton code ici
-
-
+	// Ton code ici
 }
-  console.log("Commande prête !);
+console.log("Commande prête !");
 
 // 1.6 ⭐⭐ La console calcule
 // 1. Écris un console.log qui calcule 3 menus à 8 € avec la multiplication (*). N'écris pas 24
@@ -71,9 +51,7 @@
 //
 // 24
 {
-  // Ton code ici
-
-
+	// Ton code ici
 }
 
 // 1.7 ⭐⭐ Les boissons
@@ -86,9 +64,7 @@
 //
 // 3 boissons : 7.5 €
 {
-  // Ton code ici
-
-
+	// Ton code ici
 }
 
 // 1.8 ⭐⭐⭐ Le ticket de caisse
@@ -109,9 +85,7 @@
 // Total : 14.5 €
 // ----------------------------
 {
-  // Ton code ici
-
-
+	// Ton code ici
 }
 
 // 1.9 ⭐⭐⭐ Partager l'addition
@@ -126,9 +100,7 @@
 // Addition : 58 €
 // Part de chacun : 14.5 €
 {
-  // Ton code ici
-
-
+	// Ton code ici
 }
 
 // 1.10 🏆 Le food truck en dessin
@@ -142,7 +114,5 @@
 //   |______________|___|
 //     (o)        (o)
 {
-  // Ton code ici
-
-
+	// Ton code ici
 }

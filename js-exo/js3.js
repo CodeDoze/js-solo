@@ -60,8 +60,8 @@
 // number
 // string
 {
-	const prixA = 12;
-	const prixB = "12";
+	// 	const prixA = 12;
+	// 	const prixB = "12";
 }
 
 // 3.5 ⭐⭐ null ou undefined ?
@@ -132,9 +132,9 @@
 // boolean
 // string
 {
-	const nombreCouverts = "24";
-	const estComplet = "false";
-	const nomServeur = Lina;
+	// const nombreCouverts = "24";
+	// const estComplet = "false";
+	// const nomServeur = Lina;
 }
 
 // 3.10 🏆 Des nombres pas comme les autres
