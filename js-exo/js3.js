@@ -1,91 +1,153 @@
-let nom = "Anthony";
-console.log(nom);
+// JS-03 · Les types de données · Exercices
+// Écris ton code sous chaque énoncé, puis lance : node js-03-exercices.js
+// Le guide « Faire les exercices dans VS Code » : https://code-en-action.apprendre-le-web-dev.workers.dev/guides/exercices-dans-vs-code
+// Les accolades { } séparent les exercices : écris le code de chaque exercice entre les siennes.
 
 // 3.1 ⭐ Quel type ?
-// Affiche le type de chacune de ces valeurs avec typeof : "Frites", 3.5, true, undefined.
-console.log(typeof "Frites")
-console.log(typeof 3.5 )
-console.log(typeof true)
-console.log(typeof undefined)
+// 1. Affiche le type du texte "Frites" avec typeof.
+// 2. Affiche le type du nombre 3.5.
+// 3. Affiche le type du booléen true.
+// 4. Affiche le type de undefined.
+//
+// Un console.log par ligne.
+//
+// Tu dois obtenir :
+//
+// string
+// number
+// boolean
+// undefined
+{
+	// Ton code ici
+}
 
 // 3.2 ⭐ Le bon type pour chaque information
-// Déclare une variable pour chaque information d'un plat : son nom ("Burger végé"), son prix (12.5) et s'il est végétarien (oui). Affiche ensuite le type de chacune avec typeof.
-const nomDuPlat="Burger végé";
-const prix = 12.5;
-const estVegetarien = true;
+// 1. Déclare trois constantes : nomPlat qui vaut "Burger végé", prix qui vaut 12.5 et estVegetarien
+//    qui vaut true.
+// 2. Affiche le type de chacune avec typeof, un console.log par ligne.
+//
+// Tu dois obtenir :
+//
+// string
+// number
+// boolean
+{
+	// Ton code ici
+}
 
-console.log(typeof nomDuPlat)
-console.log(typeof prix)
-console.log(typeof estVegetarien)
 // 3.3 ⭐ Une variable vide
-// Déclare let commentaire; sans valeur, puis affiche sa valeur et son type.
-let commentaire;
-console.log(commentaire)
-console.log(typeof commentaire)
+// 1. Déclare let commentaire; sans valeur.
+// 2. Affiche la valeur de commentaire.
+// 3. Affiche son type avec typeof, sur la ligne suivante.
+//
+// Tu dois obtenir :
+//
+// undefined
+// undefined
+{
+	// Ton code ici
+}
 
 // 3.4 ⭐⭐ Le piège des guillemets
-// Quelle est la différence entre ces deux variables ? Affiche le type de chacune.
-// const prixA = 12;
-// const prixB = "12";
-const prixA = 12;
-const prixB = "12";
-// prix A c'est une variable qui a une valeur un nombre , prixB elle contient du texte (number,string) 
+// Voici deux variables qui ont l'air identiques.
+//
+// 1. Recopie ces deux déclarations.
+// 2. Affiche le type de prixA, puis celui de prixB, un console.log par ligne.
+// 3. Observe la différence entre les deux.
+//
+// Tu dois obtenir :
+//
+// number
+// string
+{
+	const prixA = 12;
+	const prixB = "12";
+}
+
 // 3.5 ⭐⭐ null ou undefined ?
-// La table 7 n'est volontairement réservée par personne : range null dans reservationTable7. Affiche sa valeur et son type. Le type affiché te surprend-il ?
-const reservationTable7 = null;
-console.log(reservationTable7 )
-console.log(typeof reservationTable7 )
+// La table 7 n'est volontairement réservée par personne.
+//
+// 1. Déclare une constante reservationTable7 qui vaut null.
+// 2. Prédis ce que la console affichera pour sa valeur, puis pour son type (typeof).
+// 3. Affiche sa valeur, puis son type sur la ligne suivante.
+//
+// Exécute, puis compare avec ta prévision.
+{
+	// Ton code ici
+}
 
 // 3.6 ⭐⭐ typeof de typeof
-// Que renvoie typeof typeof 42 ? Réfléchis, puis vérifie.
-
-console.log( typeof  42)
-console.log( typeof typeof 42)
+// 1. Prédis ce que renvoie typeof typeof 42 : quel est le type du résultat de typeof 42 ?
+// 2. Affiche typeof 42, puis typeof typeof 42, un console.log par ligne.
+//
+// Exécute, puis compare avec ta prévision.
+{
+	// Ton code ici
+}
 
 // 3.7 ⭐⭐ Vrai ou « vrai » ?
-// Affiche le type de true et de "true". Lequel utiliser pour dire que la cuisine est ouverte ?
-console.log(typeof true)
-console.log(typeof "true")
-const estOuvert = true;
-console.log(estOuvert)
+// 1. Déclare une constante cuisineOuverte qui vaut le booléen true.
+// 2. Prédis le type de true, puis celui du texte "true".
+// 3. Affiche le type de true, le type du texte "true", puis cuisineOuverte, un console.log par
+//    ligne.
+// 4. Réponds en commentaire (//) : lequel des deux faut-il utiliser pour dire que la cuisine est
+//    ouverte ?
+//
+// Exécute, puis compare avec ta prévision.
+{
+	// Ton code ici
+}
 
 // 3.8 ⭐⭐⭐ La fiche produit
-// Crée la fiche d'un produit du food truck : nom ("Frites"), prix (3.5), en stock (true), allergènes (pas encore renseignés : undefined), promotion (aucune, exprès : null). Affiche chaque valeur suivie de son type, comme ceci :
+// Crée la fiche d'un produit du food truck.
+//
+// 1. Déclare avec const : nom ("Frites"), prix (3.5), enStock (true) et promotion (aucune
+//    promotion, exprès : null).
+// 2. Déclare avec let allergenes, sans valeur (pas encore renseignés).
+// 3. Affiche chaque valeur suivie de son type, dans l'ordre nom, prix, enStock, allergenes,
+//    promotion, un console.log par ligne.
+//
+// Tu dois obtenir :
+//
 // Frites string
 // 3.5 number
 // true boolean
 // undefined undefined
 // null object
-const nomDuPlats = "Frites";
-const prices  = 3.5;
-const enStock = true;
-let allergene ;
-const promo = null;
-
-console.log(nomDuPlats,typeof nomDuPlats)
-console.log(prices,typeof prices)
-console.log(allergene,typeof allergene)
-console.log(promo , typeof promo)
-console.log(enStock, typeof enStock)
+{
+	// Ton code ici
+}
 
 // 3.9 ⭐⭐⭐ Repère les mauvais types
-// Chaque information ci-dessous a le mauvais type. Corrige-les et affiche leurs types.
-
-// js
-// const nombreCouverts = "24"; 
-// const estComplet = "false";
-// const nomServeur = Lina; 
-const nombreCouverts = 24;
-const estComplet = false;
-const nomServeur = "Lina";
-
-console.log(typeof nombreCouverts);
-console.log(typeof estComplet);
-console.log(typeof nomServeur);
+// Chaque information ci-dessous a le mauvais type.
+//
+// 1. Corrige nombreCouverts : ce doit être le nombre 24.
+// 2. Corrige estComplet : ce doit être le booléen false.
+// 3. Corrige nomServeur : ce doit être le texte "Lina".
+// 4. Affiche le type de chacune, un console.log par ligne.
+//
+// Tu dois obtenir :
+//
+// number
+// boolean
+// string
+{
+	const nombreCouverts = "24";
+	const estComplet = "false";
+	const nomServeur = Lina;
+}
 
 // 3.10 🏆 Des nombres pas comme les autres
-// Affiche le type de NaN (« Not a Number ») et de Infinity, puis le résultat de 1 / 0. Explique le premier résultat.
-console.log(typeof NaN);
-console.log(typeof Infinity);
-console.log(1 / 0);
-// NaN est de type Number  c'est le resultat d' un calcul rate
+// 1. Affiche le type de NaN (« Not a Number ») avec typeof.
+// 2. Affiche le type de Infinity.
+// 3. Affiche le résultat de 1 / 0.
+// 4. Écris en commentaire (//) une phrase qui explique le premier résultat.
+//
+// Tu dois obtenir :
+//
+// number
+// number
+// Infinity
+{
+	// Ton code ici
+}

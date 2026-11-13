@@ -1,94 +1,160 @@
-// 2.1 ⭐ Le nom du restaurant
-// Range le nom La Friterie du Coin dans une variable bien nommée, puis affiche-la.
-const nomResto = "La Friterie du coin";
-console.log(nomResto);
+// JS-02 · Les variables · Exercices
+// Écris ton code sous chaque énoncé, puis lance : node js-02-exercices.js
+// Le guide « Faire les exercices dans VS Code » : https://code-en-action.apprendre-le-web-dev.workers.dev/guides/exercices-dans-vs-code
+// Les accolades { } séparent les exercices : écris le code de chaque exercice entre les siennes.
 
+// 2.1 ⭐ Le nom du restaurant
+// Fais-le en deux temps, en lançant le code après chaque étape :
+//
+// 1. Déclare une constante nomRestaurant qui vaut le texte "La Friterie du Coin". Lance le code :
+//    que voit-on dans la console ?
+// 2. Affiche nomRestaurant avec console.log, puis lance à nouveau.
+//
+// Après l'étape 1, la console reste vide. Après l'étape 2, tu dois obtenir :
+//
+// La Friterie du Coin
+{
+	// Ton code ici
+}
 
 // 2.2 ⭐ Le compteur de clients
-// Crée une variable nombreClients qui vaut 0. Trois clients entrent : donne-lui la valeur 3, puis affiche-la.
-let nombreClients = 0;
-nombreClients = 3; 
-console.log(nombreClients);
-
+// 1. Déclare avec let une variable nombreClients qui vaut 0.
+// 2. Modifie sa valeur : trois clients entrent, elle vaut maintenant 3.
+// 3. Affiche nombreClients.
+//
+// Tu dois obtenir :
+//
+// 3
+{
+	// Ton code ici
+}
 
 // 2.3 ⭐ Des noms bien écrits
 // Un collègue a noté ces quatre variables, avec des noms mal écrits :
-
-// text
+//
 // prix_du_menu = 12
 // NomClient = "Sofia"
 // table numero = 4
 // TOTALTVAC = 24.2
-// Copier
-// Déclare-les avec const, en écrivant chaque nom en camelCase et en gardant les valeurs, puis affiche les quatre variables avec un seul console.log.
-const prixDuMenu = 12;
-const nomClient ="Sofia";
-const tableNumero = 4;
-const totalTvac =24.2;
-console.log(prixDuMenu,nomClient,tableNumero,totalTvac);
-// 2.4 ⭐⭐ const ou let ?
-// Pour chaque information du salon de coiffure, choisis const ou let, puis écris la déclaration et affiche les quatre variables avec un seul console.log :
+//
+// 1. Déclare ces quatre variables avec le bon mot-clé, en réécrivant chaque nom en camelCase et en
+//    gardant les valeurs.
+// 2. Affiche les quatre variables avec un seul console.log, dans l'ordre de la liste, séparées par
+//    des virgules.
+//
+// Tu dois obtenir, sur une seule ligne :
+//
+// 12 Sofia 4 24.2
+{
+	// Ton code ici
+}
 
-// le nom du salon : "Studio Coiff" ;
-// le nombre de clients dans la journée : 0 au début ;
-// le prix d'une coupe (fixe) : 25 ;
-// le numéro du client en cours : 1 au début.
-const nomDuSalon ="Studio Coiff";
-let totalClients = 0;
-const prixCoupe = 25 ;
-let nCC = 1;
-console.log(nomDuSalon,totalClients,prixCoupe,nCC);
+// 2.4 ⭐⭐ const ou let ?
+// Pour chaque information du salon de coiffure, choisis le bon mot-clé de déclaration :
+//
+// - le nom du salon : "Studio Coiff" ;
+// - le nombre de clients dans la journée : 0 au début ;
+// - le prix d'une coupe (fixe) : 25 ;
+// - le numéro du client en cours : 1 au début.
+//
+// 1. Déclare les quatre variables, avec le nom de ton choix.
+// 2. Affiche les quatre variables avec un seul console.log, dans l'ordre de la liste.
+//
+// Tu dois obtenir, sur une seule ligne :
+//
+// Studio Coiff 0 25 1
+{
+	// Ton code ici
+}
 
 // 2.5 ⭐⭐ Trouve l'erreur
-// Ce code plante avec TypeError: Assignment to constant variable. Corrige-le pour qu'il affiche 8.
-// j'ai changé le const en let
-let stock = 10;
-stock = 8;
-console.log(stock);
+// Ce code plante avec TypeError: Assignment to constant variable.
+//
+// 1. Lis le message d'erreur : une valeur change alors qu'elle est déclarée comme constante.
+// 2. Corrige le code pour qu'il affiche 8.
+//
+// Tu dois obtenir :
+//
+// 8
+{
+	const stock = 10;
+	stock = 8;
+	console.log(stock);
+}
 
 // 2.6 ⭐⭐ Échanger le plat et le dessert
-// Le serveur s'est trompé : plat contient "Tiramisu" et dessert contient "Lasagnes". Échange leurs valeurs, puis affiche les deux.
-let plat = "Lasagne";
-let dessert = "Tiramisu";
-console.log(plat,dessert)
+// Le serveur s'est trompé : plat contient "Tiramisu" et dessert contient "Lasagnes".
+//
+// 1. Déclare plat qui vaut "Tiramisu" et dessert qui vaut "Lasagnes" (leurs valeurs vont changer).
+// 2. Échange leurs valeurs : plat doit valoir "Lasagnes" et dessert "Tiramisu". Une variable
+//    intermédiaire t'aidera.
+// 3. Affiche Plat : suivi de la valeur de plat, puis Dessert : suivi de la valeur de dessert,
+//    chacun sur sa ligne.
+//
+// Tu dois obtenir :
+//
+// Plat : Lasagnes
+// Dessert : Tiramisu
+{
+	// Ton code ici
+}
 
 // 2.7 ⭐⭐ Majuscules et minuscules
-// Qu'affiche ce code ? Pourquoi ?
-// la valeurs qu'il ya dans les 2 variables,car c'est 2 variable differente la majuscule change la variable
-const prix = 5;
-const Prix = 50;
-console.log(prix);
-console.log(Prix);
+// Voici un code (sans erreur) avec deux variables dont le nom ne diffère que par une majuscule.
+//
+// 1. Prédis ce que la console affiche, ligne par ligne.
+// 2. Recopie et lance le code pour vérifier.
+// 3. Écris en commentaire (//) pourquoi les deux lignes ne donnent pas la même chose.
+{
+	const prix = 5;
+	const Prix = 50;
+	console.log(prix);
+	console.log(Prix);
+}
+
 // 2.8 ⭐⭐⭐ Les commandes de la soirée
-// Crée commandes à 0. Trois commandes arrivent, une à une : après chacune, augmente commandes de 1 et affiche Commandes : ….
-let commandes = 0;
+// 1. Déclare avec let une variable commandes qui vaut 0.
+// 2. Augmente commandes de 1 : la première commande arrive.
+// 3. Affiche Commandes : suivi de la valeur de commandes.
+// 4. Recommence les étapes 2 et 3 deux fois de plus, pour la deuxième et la troisième commande
+//    (trois affichages en tout).
+//
+// Tu dois obtenir :
+//
+// Commandes : 1
+// Commandes : 2
+// Commandes : 3
+{
+	// Ton code ici
+}
 
-commandes = commandes + 1;
-commandes = commandes + 1;
-commandes = commandes + 1;
-console.log(commandes);
 // 2.9 ⭐⭐⭐ Déclarer avant d'utiliser
-// Ce code plante avec ReferenceError: Cannot access 'table' before initialization. Corrige-le.
-// console.log(table);
-// const table = "Table 4";
-const table = "Table 4";
-console.log(table)
-// 2.10 🏆 La fiche de réservation
-// Crée les variables d'une réservation (nom du client, nombre de personnes, heure, table) en choisissant const ou let. La cliente arrive avec une personne de plus : mets à jour la bonne variable. Affiche ensuite la fiche :
+// Ce code plante avec ReferenceError: Cannot access 'table' before initialization.
+//
+// 1. Lis le message : on utilise table avant de l'avoir déclarée.
+// 2. Corrige le code pour qu'il affiche la valeur de table.
+//
+// Tu dois obtenir :
+//
+// Table 4
+{
+	console.log(table);
+	const table = "Table 4";
+}
 
-// Console
+// 2.10 🏆 La fiche de réservation
+// 1. Déclare les variables de la réservation, en choisissant const ou let : nomClient ("Sofia"),
+//    nombrePersonnes (4), heure ("19h30") et table (12).
+// 2. Modifie la bonne variable : la cliente arrive avec une personne de plus (ne retape pas 5).
+// 3. Affiche la fiche en quatre lignes : Réservation :, Personnes :, Heure : et Table :, chacun
+//    suivi de sa valeur.
+//
+// Tu dois obtenir :
+//
 // Réservation : Sofia
 // Personnes : 5
 // Heure : 19h30
 // Table : 12
-
-const nomClients= "Sofia";
-let Personnes =  5;
-const heure = "19h30";
-const tableReserve = 12;
-Personnes = Personnes + 1;
-
-console.log("Réservation :",nomClients);
-console.log("Personnes :",Personnes);
-console.log("Heure :",heure);
-console.log("Table :",tableReserve);
+{
+	// Ton code ici
+}
